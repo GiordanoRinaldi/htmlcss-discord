@@ -70,8 +70,18 @@ header {
 .button {
     padding: 10px;
     background-color: white;
-    color: #3161e0;
+    color: black;
     border-radius: 30px;
+}
+
+.black {
+    color: white;
+    background-color: #23272a;
+}
+
+.pink {
+    color: white;
+    background-color: #8ea1e1;
 }
 
 /*fine header*/
@@ -175,4 +185,23 @@ h5, .h4footer{
 .sezione-footer a, .prima-sezione {
     text-decoration: none;
     color: white;
+}
+
+.underfooter {
+    padding-top: 30px;
+}
+
+.sezione-footer {
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+.bandiera-italiana {
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.loghi-social i {
+    padding-right: 10px;
 }
