@@ -36,7 +36,7 @@ header {
     vertical-align: middle;
 }
 
-.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi, .button {
+.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi, .button, .scarica li{
     display: inline-block;
 }
 
@@ -50,7 +50,7 @@ header {
     padding: 0px 30px;
 }
 
-.link, .link a {
+.link a, .link{
     text-decoration: none;
 }
 
@@ -62,4 +62,3 @@ header {
     color: #3161e0;
     border-radius: 30px;
 }
-
