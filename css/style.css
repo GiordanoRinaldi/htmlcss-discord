@@ -28,7 +28,7 @@ h2 {
 
 /*nav*/
 
-.logo, .main-nav, .first-img, .second-text, .third-img {
+.logo, .main-nav, .first-img, .second-text, .third-img, .prima-sezione, .seconda-sezione {
     float: left;
 }
 
@@ -138,12 +138,30 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-h4 {
     font-size: 20px;
     padding-top: 50px;
 }
 
 /* fine sezioni*/
 
+/*foter*/
+
+.prima-sezione {
+    width: calc((100% / 6) *2 );
+}
+
+.seconda-sezione {
+    width: calc(100% / 6);
+}
+
+.h4footer {
+    font-size: 30px;
+}
+
+.sezione-footer li {
+    list-style-type: none;
+}
+
+.sezione-footer a {
+    text-decoration: none;
+}
