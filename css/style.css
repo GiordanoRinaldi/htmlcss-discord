@@ -4,13 +4,62 @@
     box-sizing: border-box;
 }
 
+/*common*/
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*nav*/
+
+.logo, .main-nav, {
+    float: left;
+}
+
+.accedi {
+    float: right;
+}
 
 header {
     height: 70px;
     background-color: #3161e0;
 }
 
-.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi {
+.logo, .main-nav, .accedi {
+    margin-top: 15px;
+    vertical-align: middle;
+}
+
+.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi, .button {
     display: inline-block;
 }
+
+.main-nav {
+    width: 80%;
+    text-align: center;
+}
+
+.main-nav li a {
+    color: white;
+    padding: 0px 30px;
+}
+
+.link, .link a {
+    text-decoration: none;
+}
+
+/*bottone accedi*/
+
+.button {
+    padding: 10px;
+    background-color: white;
+    color: #3161e0;
+    border-radius: 30px;
+}
+
