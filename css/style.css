@@ -28,11 +28,11 @@ h2 {
 
 /*nav*/
 
-.logo, .main-nav, .first-img{
+.logo, .main-nav, .first-img, .second-text {
     float: left;
 }
 
-.accedi, .first-text{
+.accedi, .first-text, .second-img {
     float: right;
 }
 
@@ -109,10 +109,10 @@ header {
 
 /*sexioni simili*/
 
-.first-text {
+.first-text, .second-text {
     width: 40%;
 }
 
-.first-section {
+.section,{
     margin-top: 60px;
 }
