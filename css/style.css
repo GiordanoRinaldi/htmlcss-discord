@@ -6,7 +6,7 @@
 
 /*common*/
 .container {
-    width: 80vw;
+    width: 70vw;
     margin: auto;
 }
 
@@ -16,13 +16,23 @@
     clear: both;
 }
 
+h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 60px;
+    padding: 30px 0px;
+}
+
 /*nav*/
 
-.logo, .main-nav, {
+.logo, .main-nav, .first-img{
     float: left;
 }
 
-.accedi {
+.accedi, .first-text{
     float: right;
 }
 
@@ -36,7 +46,7 @@ header {
     vertical-align: middle;
 }
 
-.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi, .button, .scarica li{
+.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi, .button, .scarica li, .first-img, .first-text {
     display: inline-block;
 }
 
@@ -70,7 +80,7 @@ header {
 /* hero*/
 
 .hero {
-    height: 630px;
+    height: 600px;
     position: relative;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -84,16 +94,25 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 40%;
-    height: 70%;
+    height: 50%;
 }
 
-h1 {
-    font-size: 60px;
-    margin-bottom: 50px;
-}
+
 
 .sub-hero p {
     margin-bottom: 40px;
     line-height: 25px;
     font-size: 20px;
+}
+
+/*fine hero*/
+
+/*sexioni simili*/
+
+.first-text {
+    width: 40%;
+}
+
+.first-section {
+    margin-top: 60px;
 }
