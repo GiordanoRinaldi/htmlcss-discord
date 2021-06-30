@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*nav*/
+
+header {
+    height: 70px;
+    background-color: #3161e0;
+}
+
+.logo, .main-nav, .main-nav li, .accedi, .accedi .button-accedi {
+    display: inline-block;
+}
