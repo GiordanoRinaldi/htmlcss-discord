@@ -28,11 +28,11 @@ h2 {
 
 /*nav*/
 
-.logo, .main-nav, .first-img, .second-text, .third-img, .prima-sezione, .seconda-sezione {
+.logo, .main-nav, .first-img, .second-text, .third-img, .prima-sezione, .seconda-sezione, .logo-sotto {
     float: left;
 }
 
-.accedi, .first-text, .second-img, .third-text {
+.accedi, .first-text, .second-img, .third-text, .pulsante-sotto {
     float: right;
 }
 
@@ -146,6 +146,14 @@ header {
 
 /*foter*/
 
+footer {
+    background-color: #23272a;
+}
+
+h5, .h4footer{
+    color: #7289da;
+}
+
 .prima-sezione {
     width: calc((100% / 6) *2 );
 }
@@ -162,6 +170,7 @@ header {
     list-style-type: none;
 }
 
-.sezione-footer a {
+.sezione-footer a, .prima-sezione {
     text-decoration: none;
+    color: white;
 }
